@@ -1,0 +1,111 @@
+{
+    "newsletter": [
+        {
+            "headline": "Shocking News",
+            "news": "There was a shocking moment of realization for me a few hours into my MyCareer experience: the allotment of virtual currency (VC) I’d earned during that time was enough to buy my character a new pair of pants."
+        },
+        {
+            "headline": "Shocking News",
+            "news": "There was a shocking moment of realization for me a few hours into my MyCareer experience: the allotment of virtual currency (VC) I’d earned during that time was enough to buy my character a new pair of pants."
+        },
+        {   
+            "headline": "Shocking News",
+            "news": "There was a shocking moment of realization for me a few hours into my MyCareer experience: the allotment of virtual currency (VC) I’d earned during that time was enough to buy my character a new pair of pants."
+        },
+        {
+            "headline": "Shocking News",
+            "news": "There was a shocking moment of realization for me a few hours into my MyCareer experience: the allotment of virtual currency (VC) I’d earned during that time was enough to buy my character a new pair of pants."
+        }
+    ],
+    "items": [
+        {
+            "image": "Images/frame1.jpg",
+            "title": "Marvel’s Midnight Sun",
+            "desc": "Darkness falls, rise up",
+            "link": "BuyingPane",
+            "text": "Pre-Order Now"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Check Out Our Newest Collection",
+            "desc": "Gaming Tshirts, Caps and Exclusive Merchandise Only for You ",
+            "link": "BuyingPane",
+            "text": "Check Out"
+        },
+        {
+            "image": "Images/grid1.png",
+            "title": "Get Your hand On TO Our Best Selling Product",
+            "desc": "Top seller with over 1lakh sales",
+            "link": "BuyingPane",
+            "text": "Visit"
+        },
+        {
+            "image": "Images/grid4.jpg",
+            "title": "Top Selling Items of the Day",
+            "desc": "Best selling items past 24 hours",
+            "link": "BuyingPane",
+            "text": "Shop Now"
+        },
+        {
+            "image": "Images/frame2.jpg",
+            "title": "Play Like Pro",
+            "desc": "Experience the Xbox Elite Wireless Controller Series 2 - Core in white.",
+            "link": "BuyingPane",
+            "text": "Learn More"
+        },
+        {
+            "image": "Images/grid5.webp",
+            "title": "Deal of the Day",
+            "desc": "World Class Deals to Try on",
+            "link": "BuyingPane",
+            "text": "Try it Out"
+        },
+        {
+            "image": "Images/p23.jpg",
+            "title": "Lightning Deals",
+            "desc": "Selling Quickly Only Few Left",
+            "link": "BuyingPane",
+            "text": "Shop Now"
+        },
+        {
+            "image": "Images/p11.webp",
+            "title": "World Class Accessories",
+            "desc": "Not to Miss Deals with Exclusive Offers",
+            "link": "BuyingPane",
+            "text": "Shop Now"
+        },
+        {
+            "image": "Images/frame11.jpg",
+            "title": "Battlefield™ 2042 – Season 2",
+            "desc": "New map, new Specialist, new hardware, and more – play now",
+            "link": "BuyingPane",
+            "text": "Learn More"
+        },
+        {
+            "image": "Images/frame12.jpg",
+            "title": "Discover your next Favourite Game",
+            "desc": "Exclusive Game Ghoul Suggested Games Only for You",
+            "link": "BuyingPane",
+            "text": "Check it Out"
+        },
+        {
+            "image": "Images/frame10.jpg",
+            "title": "Hogwarts Legacy",
+            "desc": "Pre-order now and receive a bonus Onyx Hippogriff Mount",
+            "link": "BuyingPane",
+            "text": "Pre-Order Now"
+        },
+        {
+            "image": "Images/grid3.jpg",
+            "title": "Call of Duty®: Modern Warfare® II ",
+            "desc": "Open Beta September 24-26. Pre-order for early access on September 22",
+            "link": "BuyingPane",
+            "text": "Shop Now"
+        }
+    ],
+    "images" : [
+        "Images/banner5.png",
+        "Images/banner4.png",
+        "Images/banner2.png"
+    ]
+}

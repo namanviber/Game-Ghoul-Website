@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    font-family: 'Outfit';
+    background-color: black;
+    color: white;
+}
+
+.blog_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_body {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width: fit-content;
+}
+
+.heading {
+    margin-top: 0;
+}
+
+.heading hr,
+.content hr {
+    background-color: #f62153cb;
+    height: 0.1vw;
+    border: none;
+    width: 60vw;
+    margin-left: 0;
+}
+
+.Title {
+    margin-top: 0;
+}
+
+.Title h1 {
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 3.4vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+}
+
+.Title h3 {
+    text-align: left;
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    width: 60vw;
+}
+
+.Video video {
+    width: 60vw;
+}
+
+.Review_info img {
+    width: 2vw;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.Review_info span {
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 1.2vw;
+    margin-right: 2vw;
+}
+
+.content p {
+    width: 56vw;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.852);
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 1.15vw;
+    line-height: 1.8vw;
+    word-spacing: 0.1vw;
+}
+
+.Post_video video {
+    width: 48vw;
+}
+
+.content h2 {
+    font-family: Outfit;
+    font-weight: 800;
+    width: 56vw;
+    font-size: 3vw;
+}
+
+.content h4 {
+    font-family: Outfit;
+    font-weight: 800;
+    font-size: 1.3vw;
+}
+
+.game_info h2 {
+    text-align: left;
+    padding-top: 0;
+
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    width: 60vw;
+}
+
+.area {
+    border: 3px solid #f62153;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game {
+    margin: 1vw;
+    padding: 10px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 18vw auto 27vw;
+    transition: transform 0.8s;
+}
+
+.game_image {
+    width: fit-content;
+}
+
+.game_image img {
+    border-radius: 5px;
+    width: 17vw;
+}
+
+.game_about h3 {
+    font-family: Outfit;
+    font-size: 1.6vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.game_about h5 {
+    font-family: Outfit;
+    font-size: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.game_about span {
+    font-family: Outfit;
+    font-size: 0.8vw;
+    margin-right: 0.3vw;
+}
+
+.game_about img {
+    width: 1.1vw;
+    border-radius: 5%;
+    vertical-align: middle;
+}
+
+.score{
+    width: fit-content;
+    margin: 0;
+}
+
+.Score_value {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #f62153;
+    color: white;
+}
+
+.number h2{
+    font-family: Outfit;
+    font-weight: 800;
+    width: fit-content;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.feel{
+    width: 3vw;
+    height: fit-content;
+}
+
+.feel h2 {
+    font-family: Outfit;
+    font-weight: 800;
+    width: fit-content;
+    height: 3vw;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2vw;
+}
+
+.summary{
+    width: 27vw;
+    margin: 0;
+    padding: 0;
+}
+
+.summary p{
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 0.9vw;
+    word-spacing: 0.1vw;
+    width: 24vw;
+    margin: 0;
+    padding: 1vw;
+}
+
+.more_rev {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 6px;
+    padding-bottom: 40px;
+}
+
+.rev_other {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: transform 0.8s;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev_other:hover {
+    transform: scale(1.1);
+
+}
+.rev_other_img img {
+    border-radius: 10px;
+    width: 12vw;
+    height: 7vw;
+}
+
+.rev_other_title {
+    width: 12vw;
+}
+
+.rev_other_title h3 {
+    font-family: Outfit;
+    width: 12vw;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rev_other_title span {
+    font-family: Outfit;
+    font-size: 0.5vw;
+    margin-right: 0.4vw;
+}
+
+.rev_other_title img {
+    width: 0.9vw;
+    border-radius: 50%;
+    vertical-align: middle;
+}

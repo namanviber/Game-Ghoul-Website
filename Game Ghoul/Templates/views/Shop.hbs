@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="stylesheet" href="/CSS Files/shop4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    {{>Header}}
+
+    <!-- SlideShow -->
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="/Images/banner4.png">
+        </div>
+
+        <div class="mySlides">
+            <img src="/Images/banner2.png">
+        </div>
+        <div class="mySlides">
+            <img src="/Images/banner5.png">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br>
+    <br>
+
+    <!-- Shop Main -->
+
+    <div class="main_div">
+        <div class="sub_div">
+            <h2> Keep Shopping For </h2>
+            <br>
+            <div class="image_div">
+                <img src="/Images/p1.jpg" alt="">
+                <img src="/Images/p1.jpg" alt="">
+            </div>
+            <br>
+            <div class="image_div">
+                <img src="/Images/p1.jpg" alt="">
+                <img src="/Images/p1.jpg" alt="">
+            </div>
+        </div>
+        <div class="sub_div">
+            <h2> Great Deals </h2>
+            <br>
+            <div class="image_div">
+                <img src="/Images/p11.webp" alt="">
+                <img src="/Images/p1.jpg" alt="">
+            </div>
+            <br>
+            <div class="image_div">
+                <img src="/Images/p6.png" alt="">
+                <img src="/Images/p6.png" alt="">
+            </div>
+        </div>
+        <div class="sub_div">
+            <h2> Offers </h2>
+            <br>
+            <div class="Cat_div">
+                <div class="off_button"></div>
+                <div class="off_button"></div>
+                <div class="off_button"></div>
+            </div>
+        </div>
+        <div class="sub_div">
+            <h2> Register & Earn </h2>
+            <br>
+            <br>
+            <div class="login_div">
+                <a href="Login">
+                    <div class="cat_button" style="margin-left: 20px;"> Login </div>
+                </a>
+                <a href="Login">
+                    <div class="cat_button" style="margin-left: 20px;"> SignUp </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="main_div">
+        <div class="sub_div" style="width: 49%;">
+            <img src="/Images/frame10.jpg" alt="" id="main_img">
+        </div>
+        <div class="sub_div">
+            <h2> Shop by Category </h2>
+            <br>
+            <div class="Cat_div">
+                <a href="Product">
+                    <div class="cat_button"> Games </div>
+                </a>
+                <a href="Product">
+                    <div class="cat_button"> Gaming Accessories </div>
+                </a>
+                <a href="Product">
+                    <div class="cat_button"> Merchandise </div>
+                </a>
+            </div>
+        </div>
+        <div class="sub_div">
+            <h2> Earn Rewards </h2>
+            <img src="/Images/sale.jpg" alt="" id="sub_img">
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Categories -->
+
+    <h1 style="text-align: center; text-decoration: underline;">Shop By Categories</h1>
+    <br>
+    <br>
+    <div class="cont">
+        <div class="container3">
+            <a href="Product">
+                <button class="buttons">
+                    <img src="Images/Cat1.png" alt="Avatar">
+                </button>
+            </a>
+        </div>
+        <div class="container3">
+            <a href="Product">
+                <button class="buttons">
+                    <img src="Images/Cat2.png" alt="Avatar">
+                </button>
+            </a>
+        </div>
+        <div class="container3">
+            <a href="Product">
+                <button class="buttons">
+                    <img src="Images/Cat3.png" alt="Avatar">
+                </button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Shopping 1 -->
+
+    <h1> Top Selling Games of the Week </h1>
+    <div class="frame">
+        <div class="frame_row">
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" class="see"> See More </a>
+    <br>
+    <br>
+    <h1> Newest Arrivals </h1>
+    <div class="frame">
+        <div class="frame_row">
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" class="see"> See More </a>
+    <br>
+    <br>
+    <h1> Picks of the Day </h1>
+    <div class="frame">
+        <div class="frame_row">
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+            <div class="frame_cont">
+                <div class="image"></div>
+                <div class="desc"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" class="see"> See More </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Footer -->
+
+    {{>Footer}}
+
+
+    <!-- Java Script -->
+
+    <script src="JS Files\Shop.js"></script>
+
+</body>
+
+</html>

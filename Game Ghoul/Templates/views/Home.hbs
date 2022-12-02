@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="stylesheet" href="/CSS Files/home4.css">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    {{>Header}}
+    <div class="hero">
+        <div class="img_container">
+            <img src="/Images/bg3.png">
+        </div>
+        <div class="typewriter">
+            <h1>Keep Calm & Game On...</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Grid 1 -->
+
+    <div class="grid">
+        <div class="left">
+            <div class="frame1">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame1">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Slide Show -->
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="/Images/banner4.png">
+        </div>
+        <div class="mySlides">
+            <img src="/Images/banner2.png">
+        </div>
+        <div class="mySlides">
+            <img src="/Images/banner5.png">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br>
+    <br>
+
+    <!-- Grid 2 -->
+
+    <div class="grid">
+        <div class="left">
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame1">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame1">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+            <div class="frame2">
+                <div class="container"></div>
+                <div class="img_cont"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- News Letter -->
+
+    <h1 style="color: white;text-align: center;"> Latest News </h1>
+    <br>
+    <br>
+    <div class="newsletter">
+        <div class="block1">
+            <h2> Subscribe to our Daily Newsletter </h2>
+            <p>NBA 2K23 Review </p>
+            <p>Simultaneously a love letter to basketball fans and a microtransaction-infested disappointment.</p>
+        </div>
+        <div class="block2">
+            <div class="row_news">
+                <div class="sub_block"></div>
+                <div class="sub_block"></div>
+            </div>
+            <div class="row_news">
+                <div class="sub_block"></div>
+                <div class="sub_block" style="border-bottom-right-radius: 50px;
+                "></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" class="see"> See More </a>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Footer -->
+
+    {{>Footer}}
+
+    <!-- Java Script -->
+
+    <script src="/JS Files/Home.js"></script>
+</body>
+
+</html>

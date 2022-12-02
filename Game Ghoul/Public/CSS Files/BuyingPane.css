@@ -1,0 +1,146 @@
+/* Slide Show */
+
+.container {
+  width: 50%;
+  position: relative;
+}
+
+.productdescription {
+  margin-left: 5em;
+}
+
+.Greenbox {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: serif;
+}
+
+.statement {
+  color: white;
+  font-size: 25px;
+}
+
+
+.addtocart {
+  cursor: pointer;
+  border: 0ch;
+  background-color: red;
+  margin-left: 20em;
+  margin-top: 4em;
+  border-radius: 3px;
+  width: 18em;
+  height: 3.3em;
+}
+
+.addtocart:hover {
+  background-color: rgba(255, 0, 0, 0.708);
+}
+
+.fullname {
+  letter-spacing: 10px;
+}
+
+.waah {
+  flex-direction: column;
+}
+
+.description {
+  margin-top: 4em;
+  height: 13.5em;
+  width: 37.5em;
+  margin-left: 5.14em;
+  border-radius: 17px;
+  border: 3px solid red;
+  background-color: rgb(22, 26, 26);
+  color: white;
+}
+
+.review {
+  margin-top: 5em;
+  height: 14.3em;
+  width: 30em;
+  margin-left: 9em;
+  box-shadow: 10px;
+  border-radius: 2px;
+  background-color: rgb(22, 26, 26);
+  color: white;
+}
+
+.stars {
+  display: flex;
+  width: 29.85em;
+  height: 4em;
+}
+
+.checked {
+  color: orange;
+}
+
+.content {
+
+  margin-left: 1.6em;
+  margin-top: 1.3em;
+
+}
+
+
+.icon {
+  margin-top: 10px;
+  flex-direction: column;
+  margin-left: 0.5em;
+  width: 4em;
+  height: 4em;
+}
+
+.materialreview {
+  margin-top: 1.4em;
+  margin-left: 6em;
+}
+
+.badhiya {
+  display: flex;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.566)
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: right;
+  width: 25%;
+}

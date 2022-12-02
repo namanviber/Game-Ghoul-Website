@@ -1,0 +1,327 @@
+body {
+    margin: 0px;
+    font-family: 'Outfit';
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f62153;
+}
+
+.review_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.review_grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        'hd rlh'
+        'fi rl'
+        'rt pl'
+        'rb pl'
+        'mo mo';
+    width: fit-content;
+    column-gap: 4vw;
+}
+
+.Rev_title {
+    grid-area: hd;
+    text-align: left;
+    width: fit-content;
+}
+
+.New_title {
+    grid-area: rlh;
+    text-align: left;
+}
+
+.Rev_title h2,
+.more_rev_title h2 {
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.3vw;
+}
+
+.New_title h2,
+.Revsec_title h2,
+.Platform h2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.3vw;
+}
+
+.featured_image {
+    grid-area: fi;
+    width: fit-content;
+}
+
+.featured_image img {
+    width: 57vw;
+}
+
+.Rev_list {
+    grid-area: rl;
+    border: 3px solid #f62153;
+    border-radius: 10px;
+    padding: 1vw 2vw 1vw 2vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: ctr;
+}
+
+.list li {
+    counter-increment: ctr;
+    margin-bottom: 1vw;
+}
+
+.list li::before {
+    content: counter(ctr);
+    background-color: black;
+    border: 3px solid #f62153;
+    display: inline-grid;
+    width: 1.4vw;
+    place-items: center;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    font-size: 0.8vw;
+}
+
+.list li a{
+    display: inline-grid;
+    font-family: Outfit;
+    font-size: 0.8vw;
+    letter-spacing: 0.3vw;
+    color: white;
+}
+
+.list li a div {
+    font-family: Outfit;
+    padding-left: 1vw;
+}
+
+.list li a div h4 {
+    margin: 1px 0px 1px 0px;
+    font-family: Outfit;
+    font-size: 0.9vw;
+    letter-spacing: 0.1vw;
+}
+
+.list li a div h6 {
+    margin: 1px 0px 1px 0px;
+    font-family: Outfit;
+    font-size: 0.5vw;
+    letter-spacing: 0.1vw;
+}
+
+.Revsec_title {
+    grid-area: rt;
+}
+
+.content_type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.All_rev,
+.Tech_rev,
+.Games_rev {
+    background-color: rgba(30, 30, 30, 0.788);
+    border: 2px solid #f62153;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 1vw;
+    font-family: Outfit;
+    transition: transform 0.3s;
+    color: white;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+}
+
+.All_rev:hover,
+.Tech_rev:hover,
+.Games_rev:hover {
+    transform: scale(1.1);
+}
+
+.All_rev:active,
+.Tech_rev:active,
+.Games_rev:active {
+    background-color: #f62153;
+}
+
+.Platform {
+    grid-area: pl;
+}
+
+.Platform h2 {
+    margin: 1px 0px 20px 0px;
+    font-family: Outfit;
+    font-size: 1.6vw;
+    letter-spacing: 0.3vw;
+    margin-top: 20px;
+}
+
+.Platform_list {
+    grid-area: pl;
+    border: 3px solid #f62153;
+    border-radius: 10px;
+    padding: 1vw 2vw 0vw 2vw;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.Platform_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Platform_list ul li {
+    margin-bottom: 25px;
+    font-family: Outfit;
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+.Platform_list ul a:hover {
+    color: #f62153;
+}
+
+.review_body {
+    grid-area: rb;
+    padding-top: 2vw;
+}
+
+.review_body a {
+    color: inherit;
+}
+
+.review_body hr {
+    background-color: #f62153cb;
+    height: 0.1vw;
+    border: none;
+    width: 57vw;
+    margin-left: 0;
+}
+
+.review {
+    margin: 1vw 0vw 1vw -10px;
+    padding: 10px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 18vw auto;
+    transition: transform 0.8s;
+}
+
+.review:hover {
+    background-color: #f6215326;
+    transform: scale(1.05);
+}
+
+.rev_image {
+    width: fit-content;
+}
+
+.rev_image img {
+    border-radius: 5px;
+    width: 16vw;
+}
+
+.review_info h3 {
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0.4vw;
+    margin-bottom: 1vw;
+}
+
+.review_info p {
+    font-family: Outfit;
+    font-size: 0.8vw;
+    width: 37vw;
+}
+
+.review_info img,
+.rev_other_title img {
+    width: 1.1vw;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.review_info span,
+.rev_other_title span {
+    font-family: Outfit;
+    font-size: 0.7vw;
+    margin-right: 0.8vw;
+}
+
+.more {
+    grid-area: mo;
+}
+
+.more_rev {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    padding-bottom: 40px;
+}
+
+.rev_other {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: transform 0.8s;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev_other:hover {
+    transform: scale(1.1);
+
+}
+
+.rev_other_img img {
+    border-radius: 10px;
+    width: 18vw;
+    height: 10vw;
+}
+
+.rev_other_title {
+    width: 16vw;
+}
+
+.rev_other_title h3 {
+    font-family: Outfit;
+    width: 16vw;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.New_title{
+    color: white;
+}

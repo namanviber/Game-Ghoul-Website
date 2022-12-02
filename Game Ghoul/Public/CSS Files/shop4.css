@@ -1,0 +1,273 @@
+h1 {
+    color: white;
+    padding-left: 1vw;
+    margin-left: 1vw;
+}
+
+h2 {
+    color: white;
+    padding-left: 38px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Slide Show */
+
+.slideshow-container {
+    z-index: 0;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img{
+    width:100%;
+    height: 37vw;;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(206, 183, 183);
+}
+
+.dot {
+    height: 8px;
+    width: 45px;
+    background-color: rgb(206, 183, 183);
+    border-radius: 25%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #f62153;
+}
+
+/* Shop Main */
+
+.main_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub_div {
+    width: 24%;
+    background-color: rgba(30, 30, 30, 0.788);
+    height: 400px;
+}
+
+#main_img{
+    width: 100% !important;
+    height: 400px !important;
+}
+
+#sub_img{
+    margin-left: 20px;
+    width: 90%;
+    height: 300px !important;
+}
+
+.image_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cat_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cat_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    width: 300px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: rgba(30, 30, 30, 0.788);
+    color: white;
+}
+
+.off_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    width: 300px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: rgba(30, 30, 30, 0.788);
+    color: white;
+}
+
+.off_button a{
+    color: white;
+    padding: 1vw;
+}
+
+.cat_div a {
+    color: white;
+}
+
+.cat_button:hover{
+    border: 2px solid white;
+}
+
+.off_button:hover{
+    border: 2px solid white;
+}
+
+
+.image_div img {
+    width: 35%;
+}
+
+
+/* Categories */
+
+.cont {
+    justify-content: space-around;
+    display: flex
+}
+
+.container3 {
+    position: relative;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.container3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container3:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* Shopping 1 */
+
+/* .box_cont {
+    justify-content: space-around;
+    display: flex
+}
+
+.product_box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 21.4%;
+    justify-content: space-around;
+    height: 450px;
+    border: 2px solid white;
+}
+
+.box_data img{
+    width: 300px;
+    height: 300px !important;
+}
+
+.hover_box{
+    height: 200px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    display: none;
+    width: auto;
+}
+
+.box_data:hover + .hover_box{
+    transition: 2s;
+    display:block;
+} */
+
+
+.frame {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame_row {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frame_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    height: 30vw;
+    border: 2px solid white;
+}
+
+.image img {
+    width: 90%;
+    margin-top: 5%;
+    height: 15vw !important;
+}
+
+.desc{
+    margin: 10px;
+    color: white;
+    font-family: nunito;
+}
+
+.frame_cont:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.see{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.see:hover{
+    font-size: 20px;
+    transition: 0.5s;
+}

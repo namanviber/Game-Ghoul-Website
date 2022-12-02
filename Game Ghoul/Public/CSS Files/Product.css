@@ -1,0 +1,96 @@
+h3 {
+    font-family: Nunito;
+    color: white;
+}
+
+h1 {
+    font-family: Nunito;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+}
+h4 {
+    font-family: Nunito;
+    color: white;
+}
+
+.main {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.filter {
+    border-right: 1px solid #f62023;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check1 hr{
+    color: white;
+}
+.check1 {
+    color: white;
+    font-family: Nunito;
+    font-size: 15px;
+    /* border-bottom: solid 1px white; */
+    width: 40vh;
+    height: 35vh;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+
+.frame_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19vw;
+    height: 32vw;
+    /* height: 25vw; */
+    margin-left: 80px;
+    color: aliceblue;
+    border: 2px solid white;
+}
+
+.frame_cont img {
+    width: 90%;
+    margin-top: 5%;
+    height: 15vw !important;
+}
+
+.frame_cont div {
+    margin: 10px;
+    color: white;
+    font-family: nunito;
+}
+
+.frame_cont:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.see{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.see:hover{
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.text_box{
+    margin-top: 50px;
+}

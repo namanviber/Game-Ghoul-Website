@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+
+    <link rel="stylesheet" href="/CSS Files/blog.css">
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="Blog.json"></script>
+    <script type="text/javascript" src="Blog.js" defer></script>
+</head>
+
+
+<body>
+    <!-- Header -->
+    {{>Header}}
+
+    <!-- Main -->
+
+    <main>
+        <div class="blog_section">
+            <div></div>
+            <div class="blog_grid">
+                <div class="blog_title">
+                    <h2>News</h2>
+                </div>
+                <div class="featured">
+                    <div class="featured_news">
+                    </div>
+                </div>
+                <div class="vd_title">
+                    <h2>Videos</h2>
+                </div>
+
+                <div class="video">
+                    <video controls autoplay muted loop>
+                        <source src="Images/Honkai_ Star Rail - Official _Witness_ Trailer _ TGS 2022.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="blog_list">
+                </div>
+
+                <div class="blogsec_title">
+                    <h2>All News</h2>
+                    <div class="content_type">
+                        <button class="All_news" type="button">All</button>
+                        <button class="Tech_news" type="button">Tech</button>
+                        <button class="Games_news" type="button">Games</button>
+                    </div>
+                </div>
+
+                <div class="Category">
+                    <h2>Category</h2>
+                    <div class="Category_list">
+                        <ul>
+                            <li>
+                                <a href="Post">New launches</a>
+                            </li>
+                            <li>
+                                <a href="Post">Anouncements</a>
+                            </li>
+                            <li>
+                                <a href="Post">Guides</a>
+                            </li>
+                            <li>
+                                <a href="Post">Interviews</a>
+                            </li>
+                            <li>
+                                <a href="Post">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog_body">
+                    <hr>
+                    {{#each page}}
+                    <a href="Post">
+                        <div class="blog">
+                            <div class="blog_image"><img src="{{Thumbnail}}" alt="review image"></div>
+                            <div class="blog_info">
+                                <h3>{{Title}}</h3>
+                                <p>
+                                    {{Description}}
+                                </p>
+                                <img src="Images/Icons/cal.png" alt="date">
+                                <span>Sep 6, 2022</span>
+                                <img src="Images/Icons/auth.png" alt="author">
+                                <span>Aryaman Sital</span>
+                                <img src="Images/Icons/game.png" alt="game">
+                                <span>Game</span>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                    {{/each}}
+                </div>
+
+
+                <div class="more">
+                    <div class="more_blg_title">
+                        <h2>More News</h2>
+                    </div>
+                    <div class="more_blg">
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </main>
+
+
+
+    <!-- Footer -->
+
+    {{>Footer}}
+
+    <script src="\JS Files\Blog.js"></script>
+
+</body>
+
+
+</html>

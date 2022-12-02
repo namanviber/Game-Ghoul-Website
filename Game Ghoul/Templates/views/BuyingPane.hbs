@@ -1,0 +1,167 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xbox Video Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS Files/BuyingPane.css">
+  <link rel="stylesheet" href="/CSS Files/header.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  {{>Header}}
+
+  <!-- Slide Show -->
+
+  <div class="badhiya">
+
+    <div class="container">
+      {{#each products}}
+      {{#each Images}}
+      <div class="mySlides">
+        <img src="{{this}}" style="width:100%">
+      </div>
+      {{/each}}
+      {{/each}}
+
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="row">
+        {{#each products}}
+        {{#each Images}}
+        <div class="column">
+          <img class="demo" src="{{this}}" style="width:100%;" onclick="currentSlide(1)">
+        </div>
+        {{/each}}
+        {{/each}}
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--Text for Slide Show-->
+
+    <div class="waah">
+      <div class="productdescription">
+        <p class="describe"></p>
+        {{#each products}}
+        <h2 class="Greenbox">{{title}}</h2>
+        <p class="statement">{{detail}}</p>
+        {{/each}}
+
+      </div>
+
+      <!-- Product description -->
+
+      <div class="description">
+        <ul style="margin:20px 3px 0 -5px;">
+          {{#each products}}
+          {{#each desc}}
+          <li>
+            {{this}}
+          </li>
+          {{/each}}
+          {{/each}}
+
+        </ul>
+      </div>
+
+      <!--Add to Cart-->
+
+      
+      {{#each products}}
+      <form action="/addtocart/{{ProductID}}" method="post">
+      <button class="addtocart" type="submit">
+        ADD TO CART
+      </button>
+      </form>
+      {{/each}}
+
+
+      <!--Reviews-->
+      
+      <div class="review">
+        <div class="stars">
+          <div class="icon">
+            <img class="image" src="/Images/iconimg.png" alt="Icon" style="width:4em; height:4em">
+          </div>
+          <div class="content">
+            <div class="name">
+              <h class="fullname">Elon Musk</h>
+            </div>
+            <div class="Rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div class="materialreview">
+          <p>My Best Purchase yet!</p>
+          <p1>Amazing controller, has all the features required for console gaming. Light weight and looks very sleek and stunning.</p1>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+
+  {{>Footer}}
+
+  <!-- Java Script -->
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+
+  </script>
+
+</body>
+
+</html>

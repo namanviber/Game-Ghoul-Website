@@ -1,0 +1,361 @@
+{
+    "Reviews": [
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review1.jpg",
+            "Title": "NBA 2K23 Review",
+            "Description": "Simultaneously a love letter to basketball fans and a microtransaction-infested disappointment.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review1_tech.jpg",
+            "Title": "SteelSeries Arctis Nova 3 Gaming Headset Review",
+            "Description": "The middle child.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review2.jpg",
+            "Title": "Metal: Hellsinger Review",
+            "Description": "Blaster of puppets.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review3.jpg",
+            "Title": "Beyond the Wire Review",
+            "Description": "No Man's Land.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review2_tech.jpg",
+            "Title": "Samsung S95B QD OLED Review",
+            "Description": "Seeing is Believing.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review4.jpg",
+            "Title": "JoJo's Bizarre Adventure: All Star Battle R Review",
+            "Description": "Sins of the past.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review5.jpg",
+            "Title": "F1 Manager 2022 Review",
+            "Description": "P1, baby!",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review6.jpg",
+            "Title": "The Last of Us Part I Review",
+            "Description": "Click of approval.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review3_tech.jpg",
+            "Title": "Samsung Galaxy Z Flip 4 Review",
+            "Description": "Nearly the same phone, exactly the same price.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review7.jpg",
+            "Title": "Red Matter 2 Review",
+            "Description": "Supernatural space communism.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review8.jpg",
+            "Title": "Soul Hackers 2 Review",
+            "Description": "An entertaining but overly familiar JRPG.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review4_tech.jpeg",
+            "Title": "SteelSeries Arctis Nova 7 Gaming Headset Review",
+            "Description": "Consolidating without compromise.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review9.jpg",
+            "Title": "Stray Review",
+            "Description": "The cat's meow.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review10.jpg",
+            "Title": "V Rising Review",
+            "Description": "There's a bit too much wood chopping in this vampire survival fantasy, but respectable ARPG combat makes up for it.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/review5_tech.jpg",
+            "Title": "Razer Blade 14 Review",
+            "Description": "Razer goes Ryzen.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        }
+    ],
+    "New": [
+        {
+            "Link": "Post",
+            "Title": "NBA 2K23 Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Metal: Hellsinger Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Stray Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "V Rising Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Soul Hackers 2 Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Red Matter 2 Review",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "F1 Manager 2022 Review",
+            "Date": "Sep 6, 2022"
+        }
+    ],
+    "More": [
+        {
+            "Thumbnail": "Images/review1_other.jpg",
+            "Title": "Predator Helios 300 Review",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Thumbnail": "Images/review2_other.jpg",
+            "Title": "Salt & Sacrifice Review",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Thumbnail": "Images/review3_other.jpg",
+            "Title": "Pixel 6A Review",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Thumbnail": "Images/review4_other.jpg",
+            "Title": "Postal4: No Regrets Review",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        }
+    ]
+}

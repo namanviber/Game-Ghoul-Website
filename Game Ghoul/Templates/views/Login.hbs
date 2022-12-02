@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="stylesheet" href="/CSS Files/Login.css">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body background="/Images/Loginbg.jpg">
+
+    <!-- Home Button -->
+    <div class="home">
+        <a href="Home"> Home </a>
+    </div>
+
+    <!-- Login -->
+
+    <div class="login">
+        <form class="box" action="index" method="post">
+            <div class="contentsinlogin">
+            <h1>Login</h1>
+            <input type="text" name="" placeholder="Username">
+            <input type="password" name="" placeholder="Password">
+            <input type="submit" name="" value="Login">
+            <h3>Not registered yet ?</h3>
+        </form>
+    </div>
+        <button class="signup" onclick=popuptoggle()>Signup</button>
+    </div>
+    
+
+    <div class="pop" id="sign">
+        <form class="newbox" action="index" method="post">
+            <h1>SignUp</h1>
+            <input type="text" name="" placeholder="Full Name">
+            <input type="email" name="" placeholder="Email ID">
+            <input type="text" name="" placeholder="Username">
+            <input type="password" name="" placeholder="Password">
+            <input type="password" name="" placeholder="Confirm Password">
+        </form>
+    </div>
+    
+    <script>
+        function popuptoggle() 
+        {
+            const popup = document.getElementById('sign');
+            popup.classList.toggle('active');
+        }
+
+    </script>
+
+</body>
+
+</html>

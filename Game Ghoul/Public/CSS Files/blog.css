@@ -1,0 +1,391 @@
+body {
+    margin: 0px;
+    font-family: 'Outfit';
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f62153;
+}
+
+.blog_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.blog_grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        'hd hd'
+        'ft ft'
+        'vd vd'
+        'vdo lst'
+        'rt pl'
+        'rb pl'
+        'mo mo';
+    width: fit-content;
+    column-gap: 2vw;
+}
+
+.blog_title {
+    grid-area: hd;
+    text-align: left;
+    width: fit-content;
+}
+
+.blog_title h2{
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 1.8vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.3vw;
+}
+
+.featured {
+    grid-area: ft;
+}
+
+.featured_news {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding-bottom: 40px;
+}
+
+.blog_featured {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_featured_img img {
+    border-radius: 10px;
+    width: 26vw;
+    height: 14vw;
+}
+
+.blog_featured_title {
+    width: 24vw;
+    height: 4vw;
+}
+
+.blog_featured_title h3 {
+    font-family: Outfit;
+    width: 24vw;
+    font-size: 1.6vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.vd_title{
+    grid-area: vd;
+}
+
+.vd_title h2{
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 1.8vw;
+    letter-spacing: 0.3vw;
+}
+
+.video video{
+    width: 56vw;
+    margin-bottom: 2vw;
+    border: 3px solid #f62153;
+    border-radius: 10px;
+}
+
+.New_title {
+    grid-area: rlh;
+    text-align: left;
+}
+
+.more_news_title h2 {
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.3vw;
+}
+
+.New_title h2,
+.blogsec_title h2,
+.Category h2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.3vw;
+    margin-top: 0;
+}
+
+.blog_list {
+    grid-area: lst;
+    border: 3px solid #f62153;
+    border-radius: 10px;
+    padding: 1vw 2vw 1vw 2vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: ctr;
+}
+
+.list li {
+    counter-increment: ctr;
+    margin-bottom: 1vw;
+}
+
+.list li::before {
+    content: counter(ctr);
+    background-color: black;
+    border: 3px solid #f62153;
+    display: inline-grid;
+    width: 1.4vw;
+    place-items: center;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    font-size: 0.8vw;
+}
+
+.list li a {
+    display: inline-grid;
+    font-family: Outfit;
+    font-size: 0.8vw;
+    letter-spacing: 0.3vw;
+}
+
+.list li a div {
+    font-family: Outfit;
+    padding-left: 1vw;
+}
+
+.list li a div h4 {
+    margin: 1px 0px 1px 0px;
+    font-family: Outfit;
+    font-size: 1vw;
+    width: 15vw;
+    letter-spacing: 0.1vw;
+}
+
+.list li a div h6 {
+    margin: 1px 0px 1px 0px;
+    font-family: Outfit;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+}
+
+.blogsec_title {
+    grid-area: rt;
+}
+
+.content_type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.All_news,
+.Tech_news,
+.Games_news {
+    background-color: rgba(30, 30, 30, 0.788);
+    border: 2px solid #f62153;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 1vw;
+    font-family: Outfit;
+    transition: transform 0.3s;
+    color: white;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+}
+
+.All_news:hover,
+.Tech_news:hover,
+.Games_news:hover {
+    transform: scale(1.1);
+}
+
+.All_news:active,
+.Tech_news:active,
+.Games_news:active {
+    background-color: #f62153;
+}
+
+.Category {
+    grid-area: pl;
+}
+
+.Category h2 {
+    margin: 1px 0px 20px 0px;
+    font-family: Outfit;
+    font-size: 1.6vw;
+    letter-spacing: 0.3vw;
+    margin-top: 20px;
+}
+
+.Category_list {
+    grid-area: pl;
+    border: 3px solid #f62153;
+    border-radius: 10px;
+    padding: 1vw 2vw 0vw 2vw;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.Category_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Category_list ul li {
+    margin-bottom: 25px;
+    font-family: Outfit;
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+.Category_list ul a:hover {
+    color: #f62153;
+}
+
+.blog_body {
+    grid-area: rb;
+    padding-top: 2vw;
+}
+
+.blog_body a {
+    color: inherit;
+}
+
+.blog_body hr {
+    background-color: #f62153cb;
+    height: 0.1vw;
+    border: none;
+    width: 57vw;
+    margin-left: 0;
+}
+
+.blog {
+    margin: 1vw 0vw 1vw -10px;
+    padding: 10px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 18vw auto;
+    transition: transform 0.8s;
+}
+
+
+.blog:hover {
+    background-color: #f6215326;
+    transform: scale(1.05);
+}
+
+.blog_image {
+    width: fit-content;
+}
+
+.blog_image img {
+    border-radius: 5px;
+    width: 16vw;
+}
+
+.blog_info h3 {
+    font-family: Outfit;
+    width: 35vw;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0.4vw;
+    margin-bottom: 1vw;
+}
+
+.blog_info p {
+    font-family: Outfit;
+    font-size: 0.8vw;
+    width: 35vw;
+}
+
+.blog_info img,
+.blog_featured_title img,
+.blg_other_title img{
+    width: 1.1vw;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.blog_info span,
+.blog_featured_title span,
+.blg_other_title span{
+    font-family: Outfit;
+    font-size: 0.7vw;
+    margin-right: 0.8vw;
+}
+
+.more {
+    grid-area: mo;
+}
+
+.more_blg {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    padding-bottom: 40px;
+}
+
+.blg_other {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: transform 0.8s;
+    justify-content: center;
+    align-items: center;
+}
+
+.blg_other:hover {
+    transform: scale(1.1);
+
+}
+
+.blg_other_img img {
+    border-radius: 10px;
+    width: 18vw;
+    height: 10vw;
+}
+
+.blg_other_title {
+    width: 16vw;
+    height: 3vw;
+}
+
+.blg_other_title h3 {
+    font-family: Outfit;
+    width: 16vw;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

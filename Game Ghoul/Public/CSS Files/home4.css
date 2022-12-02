@@ -1,0 +1,232 @@
+body{
+    background-color: black;
+}
+
+/* Header Extended */ 
+
+.img_container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.img_container img{
+    height:38vw;
+}
+
+.typewriter {
+    position: absolute;
+    color: white;
+    top: 50%;
+    font-family: 'Orbitron', sans-serif;
+    left: 35%;
+
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid #f62153;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #f62153;
+    }
+}
+
+/* Grid */
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 49%;
+}
+
+.right {
+    width: 49%;
+}
+
+.frame1 .img_cont img {
+    width: 100%;
+}
+
+.frame2 .img_cont img {
+    width: 70%;
+    height: 30vw;;
+}
+
+.frame2 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.frame2 .container {
+    background-image: linear-gradient(#23074d, #cc5333);
+    width: 50%;
+    color: white;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+.container a {
+    text-decoration: underline white solid 2px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.container a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.frame1 .container {
+    margin-top: 600px;
+    position: absolute;
+    color: white;
+    max-width: 30%;
+    margin-left: 30px;
+    text-align: left;
+}
+
+/* Slideshow */
+
+/* Slide Show */
+
+.slideshow-container {
+    z-index: 0;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img{
+    width:100%;
+    height: 37vw;;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(206, 183, 183);
+}
+
+.dot {
+    height: 8px;
+    width: 45px;
+    background-color: rgb(206, 183, 183);
+    border-radius: 25%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #f62153;
+}
+
+/* News Letter */
+
+.newsletter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block1 {
+    width: 25%;
+    height: 21.5vw;
+    border: 5px solid white;
+    color: white;
+    border-top-left-radius: 50px;
+    padding: 1vw;
+    padding-bottom: 3.3vw;
+}
+
+.block2 {
+    width: 65%;
+    height: 19.4vw;
+}
+
+.row_news {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vw;
+}
+
+.sub_block {
+    padding: 1.5vw;
+    padding-bottom: 2.5vw;
+    width: 40%;
+    height: 8vw;
+    border: 5px solid white;
+    color: white;
+}
+
+.block1:hover {
+    background-color: white;
+    color: black;
+}
+
+.sub_block:hover {
+    background-color: white;
+    color: black;
+}
+
+.see {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.see:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}

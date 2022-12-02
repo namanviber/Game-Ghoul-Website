@@ -1,0 +1,109 @@
+{
+    "item": [
+        {
+            "image": "Images/p1.jpg",
+            "title": "Xbox Elite",
+            "price": "$ 899",
+            "desc": "Xbox Elite Wireless Controller Black Color",
+            "link": "BuyingPane/P1"
+        },
+        {
+            "image": "Images/lg1.jpg",
+            "title": "Logitech G213 Prodigy Gaming Keyboard",
+            "price": "$ 299",
+            "desc": "LIGHTSYNC RGB Backlit Keys, Spill-Resistant, Customizable Keys, Dedicated Multi-Media Keys - Black",
+            "link": "BuyingPane/P2"
+        },
+        {
+            "image": "Images/hdph1.webp",
+            "title": "RAZER - BLACKSHARK V2 PRO",
+            "price": "$ 699",
+            "desc": "Six Siege Special Edition Gaming Headphones",
+            "link": "BuyingPane/P3"
+        },
+        {
+            "image": "Images/m1.webp",
+            "title": "G502 HERO",
+            "price": "$ 129",
+            "desc": "High Performance Gaming Mouse",
+            "link": "BuyingPane/P4"
+        },
+        {
+            "image": "Images/s1.jpg",
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "desc": "Advanced Stream Control with 32 customizable LCD keys",
+            "link": "BuyingPane/P5"
+        },
+        {
+            "image": "Images/p11.webp",
+            "title": "Xbox Playstation With Controller",
+            "price": "$ 1999",
+            "desc": "Xbox Playstation Black Color with Elite Black Wireless Controller",
+            "link": "BuyingPane/P6"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P7"
+        },
+        {
+            "image": "Images/p23.jpg",
+            "title": "FireVolt Wireless Headphones",
+            "price": "$ 599",
+            "desc": "White Color Exclusive Firevolt Wireless Headphones with Aux Cable",
+            "link": "BuyingPane/P8"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P9"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P10"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P11"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P12"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P13"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P14"
+        },
+        {
+            "image": "Images/p24.jpg",
+            "title": "Valorant Balck Tshirt",
+            "price": "$ 199",
+            "desc": "Black Color Cotton Valorant Exclusive Merchantdise Tshirt",
+            "link": "BuyingPane/P15"
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    font-family: Nunito;
+    background-color: black;
+}
+
+/* Header Style */
+
+.header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid #f62153;
+    position: sticky;
+    top: 0%;
+    z-index: 500;
+}
+
+.header img {
+    height: 6vw;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 30vw;
+    font-size: 1.2vw;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+}
+
+.tabs a:hover {
+    color: #f62153;
+    border-bottom: 3px solid #f62153;
+}
+
+.log img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vw;
+    padding: 0vw 2vw;
+}
+
+.log input {
+    border: 3px solid #f62153;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 15vw;
+    height: 2vw;
+}
+
+.log input:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons {
+    background-color: black;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttons:hover {
+    opacity: 0.8;
+}
+
+/* Footer Style */
+
+.footer {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px solid #f62153;
+    bottom: 0%;
+    height: 13vw;
+}
+
+.footer img {
+    height: 6vw;
+    border-right: 2px solid#f62153;
+}
+
+.ftab {
+    padding-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    width: 5vw;
+    font-size: 1vw;
+}
+
+.ftab1 {
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    width: 5vw;
+    font-size: 1vw;
+}
+
+.ftab a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.5vw;
+}
+
+.ftab1 a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.08vw;
+}
+
+.ftab1 a:hover {
+    color: #f62153;
+}
+
+.ftab a:hover {
+    color: #f62153;
+}
+
+.log1 img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.log1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10vw;
+    padding: 0vw 2vw;
+}
+
+.foot-left
+{
+    display: flex;
+}
+.foot-head{
+    color: #f62153;
+    font-weight: bold;
+    margin-left: 2.1vw;
+}
+.foot-cont{
+    display: flex;
+    flex-direction: column;
+}
+.foot-cont img{
+    border:none;
+}

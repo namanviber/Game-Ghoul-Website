@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    font-family: 'Outfit';
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f62153;
+}
+
+.cart_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart_contents {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    grid-area: hd;
+    display: grid;
+    grid-template-columns: 88% 12%;
+}
+
+.cart_title h2 {
+    text-align: left;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.3vw;
+}
+
+.price_title {
+    padding-left: 0;
+}
+
+.price_title h4 {
+    text-align: right;
+    width: fit-content;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    letter-spacing: 0.3vw;
+}
+
+.cart_body hr {
+    background-color: #f62153cb;
+    height: 0.1vw;
+    border: none;
+    width: 68vw;
+    margin-left: 0;
+}
+
+.cart_body {
+    grid-area: bdy;
+}
+
+.item {
+    display: flex;
+}
+
+.thumbnail {
+    height: fit-content;
+    width: fit-content;
+}
+
+.thumbnail img {
+    height: 9vw;
+    border-radius: 1vw;
+}
+
+.item_details {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.itm_info h3 {
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+    margin: 0.4vw 1vw;
+}
+
+.price h4 {
+    font-family: Outfit;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0;
+}
+
+.quantity {
+    margin: 0.4vw 1vw;
+    font-size: 1.1vw;
+}
+
+.value {
+    border: 1px solid #f62153;
+    border-radius: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 1vw;
+    font-size: 1.1vw;
+}
+
+.add,
+.remove {
+    display: inline;
+    margin-left: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1.2vw;
+    background-color: #760721;
+}
+
+.End {
+    display: grid;
+    grid-template-columns: 88% 12%;
+    margin-bottom: 10vw;
+}
+
+.total{
+    font-size: 1.4vw;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.Checkout{
+    background-color: #760721;
+    width: fit-content;
+    padding:1vw;
+    border-radius: 2vw;
+}

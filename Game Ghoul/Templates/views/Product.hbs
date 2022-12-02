@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="stylesheet" href="/CSS Files/Product.css">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    {{>Header}}
+
+    <!-- Category Pane -->
+
+    <br>
+    <br>
+    <div class="main">
+        <div class="filter">
+            <h1> Accessories </h1>
+            <h3>Filters</h3>
+            <div class="check1">
+                <h4> Brands </h4>
+                <input type="checkbox" name="Hi">
+                <span> Sony </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> Redgear </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> Razor </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> Zebronics </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> Logitech </span>
+                <br>
+                <br>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="check1">
+                <h4> Price </h4>
+                <input type="checkbox" name="Hi">
+                <span> Less than 1000 </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> 1000-1999 </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> 2000-4999 </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> 5000-9999 </span>
+                <br>
+                <br>
+                <input type="checkbox" name="Hi">
+                <span> 10000 plus </span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>  
+            </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+        <div class="frame">
+            
+                {{#each page}}
+                <a href="{{link}}">
+                <div class="frame_cont ">
+                    <img src="{{image}}" alt="">
+                    <h4>{{title}}</h4>
+                    <h5>{{price}}</h5>
+                    <p>{{desc}}</p>
+                </div>
+                </a>
+                <br>
+                <br>
+                <br>
+                {{/each}}
+        </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" class="see"> See More </a>
+    <br>
+    <br>
+
+    <!-- Footer -->
+
+    {{>Footer}}
+
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+
+
+    <link rel="stylesheet" href="/CSS Files/reviews.css">
+    <link rel="stylesheet" href="/CSS Files/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    {{>Header}}
+
+
+    <main>
+
+        <div class="review_section">
+            <div></div>
+            <div class="review_grid">
+
+                <div class="Rev_title">
+                    <h2>Reviews</h2>
+                </div>
+
+                <div class="New_title">
+                    <h2>New</h2>
+                </div>
+
+                <div class="featured_image">
+                    <img src="/Images/feat1.jpg" alt="featured image">
+                </div>
+
+                <div class="Rev_list">
+                    <ol class="list">
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Post">
+                                <div>
+                                    <h4>NBA 2K23 Review</h4>
+                                    <h6>22/04/22</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+
+                <div class="Revsec_title">
+                    <h2>All Reviews</h2>
+                    <div class="content_type">
+                        <button class="All_rev" type="button">All</button>
+                        <button class="Tech_rev" type="button">Tech</button>
+                        <button class="Games_rev" type="button">Games</button>
+                    </div>
+                </div>
+
+                <div class="Platform">
+                    <h2>Platform</h2>
+                    <div class="Platform_list">
+                        <ul>
+                            <li>
+                                <a href="Post">Playstation</a>
+                            </li>
+                            <li>
+                                <a href="Post">Nintendo</a>
+                            </li>
+                            <li>
+                                <a href="Post">XBoX</a>
+
+                            </li>
+                            <li>
+                                <a href="Post">PC</a>
+                            </li>
+                            <li>
+                                <a href="Post">Mobile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="review_body">
+                    <hr>
+                    {{#each page}}
+                    <a href="Post">
+                        <div class="review">
+                            <div class="rev_image"><img src="{{Thumbnail}}" alt="review image"></div>
+                            <div class="review_info">
+                                <h3>{{Title}}</h3>
+                                <p>
+                                    {{Description}}
+                                </p>
+                                <img src="/Images/Icons/cal.png"alt="date">
+                                <span>Sep 15, 2022</span>
+                                <img src="/Images/Icons/auth.png" alt="author">
+                                <span>Aryaman Sital</span>
+                                <img src="/Images/Icons/game.png" alt="game">
+                                <span>Game </span>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                    {{/each}}
+                    
+                </div>
+
+                <div class="more">
+                    <div class="more_rev_title">
+                        <h2>More Reviews</h2>
+                    </div>
+                    <div class="more_rev">
+                        <div class="rev_other">
+                            <div class="rev_other_img">
+                                <img src="Images/review1_other.jpg" alt="">
+                            </div>
+                            <div class="rev_other_title">
+                                <h3>Predator Helios 300 Review</h3>
+                                <img src="Images/Icons/cal.png" alt="date">
+                                <span>Sep 15, 2022</span>
+                                <img src="Images/Icons/tech.png" alt="tech">
+                                <span>Tech</span>
+                            </div>
+                        </div>
+                        <div class="rev_other">
+                            <div class="rev_other_img">
+                                <img src="Images/review2_other.jpg" alt="">
+                            </div>
+                            <div class="rev_other_title">
+                                <h3>Salt & Sacrifice Review</h3>
+                                <img src="Images/Icons/cal.png" alt="date">
+                                <span>Sep 15, 2022</span>
+                                <img src="Images/Icons/game.png" alt="game">
+                                <span>Game</span>
+                            </div>
+                        </div>
+                        <div class="rev_other">
+                            <div class="rev_other_img">
+                                <img src="Images/review3_other.jpg" alt="">
+                            </div>
+                            <div class="rev_other_title">
+                                <h3>Pixel 6a Review</h3>
+                                <img src="Images/Icons/cal.png" alt="date">
+                                <span>Sep 15, 2022</span>
+                                <img src="Images/Icons/tech.png" alt="tech">
+                                <span>Tech</span>
+                            </div>
+                        </div>
+                        <div class="rev_other">
+                            <div class="rev_other_img">
+                                <img src="Images/review4_other.jpg" alt="">
+                            </div>
+                            <div class="rev_other_title">
+                                <h3>Postal4: No Regrets Review</h3>
+                                <img src="Images/Icons/cal.png" alt="date">
+                                <span>Sep 15, 2022</span>
+                                <img src="Images/Icons/game.png" alt="game">
+                                <span>Game</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div></div>
+        </div>
+    </main>
+
+
+
+    {{>Footer}}
+</body>

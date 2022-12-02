@@ -1,0 +1,370 @@
+{
+    "Posts": [
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 1.jpg",
+            "Title": "The 25 Best N64 Games of All Time",
+            "Description": "From The Legend of Zelda: Ocarina of Time to Super Mario 64, here are our picks for the best N64 games of all time",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 2.jpg",
+            "Title": "Sony Confirms Original PSVR Games Are Not Compatible with PSVR2",
+            "Description": "\"PSVR2's designed to deliver a truly next-generation VR experience.\"",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 3.jpg",
+            "Title": "Where to Find Xur in Destiny 2 This Weekend",
+            "Description": "Xurty , Flirty and Thriving!",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 4.jpg",
+            "Title": "Hollow Knight: Silksong Confirmed for PS4 and PS5",
+            "Description": "New platforms, same old lack of release date.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 5.jpg",
+            "Title": "Deals: Save £20 on PS5 Pulse 3D Headsets",
+            "Description": "So many deals this weekend!",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 6.jpg",
+            "Title": "Genshin Impact Is Becoming an Anime",
+            "Description": "The new trailer showed a tease of their vision of Mondstadt along with three important characters.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 7.jpg",
+            "Title": "James Cameron Is 'Very Excited' by What Ubisoft Is Doing With Avatar",
+            "Description": "\"I don’t tell them what to do — they know their world, their business, their market.\"",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 8.jpg",
+            "Title": "Ashfall Showcase 2022: How to Watch and What to Expect",
+            "Description": "Join us as we reveal brand-new gameplay and talk to the creators behind the upcoming post-apocalyptic MMO.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 9.jpg",
+            "Title": "The Best G-Sync Gaming Monitors For Those On a Budget",
+            "Description": "Budget gaming screens for Nvidia GPUs",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 10.jpg",
+            "Title": "The Best Disney Dreamlight Valley Tips and Guides",
+            "Description": "Welcome to the valley of nostalgia and friendship.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 11.jpg",
+            "Title": "Overwatch 2's Next Support Hero Officially Revealed",
+            "Description": "Way of the ninja.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 12.jpg",
+            "Title": "iPhone 14's Sold in the US Won't Include a SIM Card Tray",
+            "Description": "At least eight eSIMs can be supported on one iPhone 14 or 14 Pro, according to Apple.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "tech"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 13.jpg",
+            "Title": "Everything Shown at ID@Xbox Fall Showcase: Ghostbusters, Valheim, and More",
+            "Description": "Valheim, Moonscars, and more.",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 14.jpg",
+            "Title": "Turbo Overkill is a Giblet-Gushing Cyberpunk Shooter That Feels Unstoppable at 500+ FPS",
+            "Description": "Rev up your trusty Chainsaw Leg!",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Link": "Post",
+            "Thumbnail": "Images/article 15.jpg",
+            "Title": "We've Found the Best Gaming Chairs for Your Sitting Needs",
+            "Description": "Top computer chairs for PC gamers",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 6, 2022"
+            ],
+            "Author": [
+                "Images/Icons/auth.png",
+                "Aryaman Sital"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        }
+    ],
+    "New": [
+        {
+            "Link": "Post",
+            "Title": "Honkai Impact Trailer",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "What Is Assassin's Creed Infinity?",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "The War for Mandalore Will Change the Star Wars Galaxy Forever",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Ashfall Combat Gameplay",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Overwatch 2 New Hero Kiriko Explained",
+            "Date": "Sep 6, 2022"
+        },
+        {
+            "Link": "Post",
+            "Title": "Danganronpa V3: Killing Harmony Trailer",
+            "Date": "Sep 6, 2022"
+        }
+    ],
+    "More": [
+        {
+            "Thumbnail": "Images/blog1_other.jpg",
+            "Title": "The Best Gaming Desks for The Ultimate Gaming Setup",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Thumbnail": "Images/blog2_other.jpg",
+            "Title": "Meet 7 of the Deadliest Units in Company of Heroes 3",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        },
+        {
+            "Thumbnail": "Images/blog3_other.jpg",
+            "Title": "The Best Laptops For College to Help You Get Through The Semester",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/tech.png",
+                "Tech"
+            ]
+        },
+        {
+            "Thumbnail": "Images/blog4_other.jpg",
+            "Title": "Here's Why Overwatch 2 Is Putting New Characters in the Battle Pass",
+            "Date": [
+                "Images/Icons/cal.png",
+                "Sep 15, 2022"
+            ],
+            "Type": [
+                "Images/Icons/game.png",
+                "Games"
+            ]
+        }
+    ],
+    "Featured": [
+        {
+            "Thumbnail": "Images/Blog Featured 1.jpg",
+            "Title": "Xbox: Accessibility Is the Future of Gaming"
+        },
+        {
+            "Thumbnail": "Images/Blog Featured 2.jpg",
+            "Title": "How to Play the Assassin's Creed Games in Order"
+        },
+        {
+            "Thumbnail": "Images/Blog Featured 3.jpg",
+            "Title": "These are the Best SSDs for Your PlayStation 5"
+        }
+    ]
+}

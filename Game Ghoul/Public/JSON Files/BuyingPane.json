@@ -1,0 +1,349 @@
+{
+    "item": {
+        "P1": {
+            "image": [
+                "Images/p1.jpg",
+                "Images/p2.jpg",
+                "Images/p3.jpg",
+                "Images/p4.jpg"
+            ],
+            "title": "Xbox Elite",
+            "price": "$ 899",
+            "detail": "Xbox Elite Wireless Controller Black Color",
+            "desc": [
+                "Enhance your aiming with new adjustable-tension thumbsticks and stay on target with a wrap-around rubberized grip",
+                "Tailor the controller to your preferred gaming style with new interchangeable thumbstick and paddle shapes",
+                "Save up to 3 custom profiles and 1 default profile on the controller",
+                "Assign a button to act as a ‘Shift key’ to enable alternative inputs for each of the other buttons"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Elon Musk",
+                "title": "My Best Purchase yet!",
+                "review": "Amazing controller, has all the features required for console gaming. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P2": {
+            "image": [
+                "Images/lg1.jpg",
+                "Images/lg2.jpg",
+                "Images/lg3.jpg",
+                "Images/lg4.jpg"
+            ],
+            "title": "Logitech G213 Prodigy Gaming Keyboard",
+            "price": "$ 299",
+            "detail": "LIGHTSYNC RGB Backlit Keys, Spill-Resistant, Customizable Keys, Dedicated Multi-Media Keys - Black",
+            "desc": [
+                "Brilliant Color Spectrum Illumination Personalize five individual lighting zones from a spectrum of over 16.8 million colors",
+                "Comfortable and Durable G213 Prodigy is a full-sized keyboard designed for gaming and productivity",
+                "G213 features dedicated media controls that can be used to play, pause and mute music and videos instantly",
+                "Customize lighting, game mode and macro custom programming with downloadable Logitech G HUB software"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Adron James",
+                "title": "Enhanced my movement",
+                "review": "Amazing Keyboard, has all the features required for good movement in gaming. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P3": {
+            "image": [
+                "Images/hdph1.webp",
+                "Images/hdph2.webp",
+                "Images/hdph3.webp",
+                "Images/hdph4.webp"
+            ],
+            "title": "RAZER - BLACKSHARK V2 PRO",
+            "price": "$ 699",
+            "detail": "Six Siege Special Edition Gaming Headphones",
+            "desc": [
+                "FEATURING RAZER HYPERSPEED WIRELESS TECHNOLOGY",
+                "FEATURING 50MM RAZER TRIFORCE TITANIUM DRIVERS",
+                "ULTRACLEAR SUPERCARDIOID MICROPHONE",
+                "THX SPATIAL AUDIO - FOR IMMERSIVE GAMING AUDIO EXPERIENCE AND OFFERING MEMORY FOAM EAR CUSHIONS AND PASSIVE NOISE CANCELLATION"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Josh Ambers",
+                "title": "My Best pair of headphones yet!",
+                "review": "Amazing Sound, has all the features required for competetive gaming. Looks very cool and amazing."
+            }
+        },
+        "P4": {
+            "image": [
+                "Images/m1.webp",
+                "Images/m2.webp",
+                "Images/m3.webp",
+                "Images/m4.webp"
+            ],
+            "title": "G502 HERO",
+            "price": "$ 129",
+            "detail": "High Performance Gaming Mouse",
+            "desc": [
+                "G502 HERO features HERO 25K gaming sensor with sub-micron precision tracking, customizable LIGHTSYNC RGB, onboard profiles, repositionable weights",
+                "Adjustable Weight System",
+                "Mechanical Switch Button Tensioning",
+                "Assign a button to act as a ‘Shift key’ to enable dpi shifts for each of the other buttons"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Elisa Mittens",
+                "title": "Very high speed mouse",
+                "review": "Amazing grip, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P5": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P6": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P7": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P8": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P9": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P10": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P11": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P12": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P13": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P14": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        },
+        "P15": {
+            "image": [
+                "Images/s1.jpg",
+                "Images/s2.jpg",
+                "Images/s3.jpg",
+                "Images/s4.jpg"
+            ],
+            "title": "Elgato Stream Deck XL",
+            "price": "$ 799",
+            "detail": "Advanced Stream Control with 32 customizable LCD keys",
+            "desc": [
+                "Seamlessly integrated Elgato Game Capture, OBS, Streamlabs, Twitch, YouTube, Twitter, Mixer, and more",
+                "Completely customizable Personalizing Stream Deck XL is a breeze",
+                "Your streaming centerpiece Start streaming. Adjust audio levels and mute your mic. Tweak lighting. Switch cameras. Apply lower thirds. Change scenes",
+                "Easily customize 32 LCD keys to trigger unlimited actions"
+            ],
+            "review": {
+                "image": "Images/iconimg.png",
+                "name": "Figer Thaw",
+                "title": "High quality streaming aid",
+                "review": "Comfy switch, has all the features required for a good aim. Light weight and looks very sleek and stunning."
+            }
+        }
+    }
+}

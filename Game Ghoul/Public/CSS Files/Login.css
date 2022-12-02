@@ -1,0 +1,256 @@
+.home {
+    display: flex;
+    height: 3vw;
+    width: 5vw;
+    background-color: #cc2e2e;
+    margin-left: 90%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.home a{
+    color: white;
+    font-family: Nunito;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.form {
+    justify-content: center;
+}
+
+.title {
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+
+.form label {
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+}
+
+.form input {
+    font-size: 1vw;
+    background-color: white;
+    width: 30vw;
+    height: 2vw;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+}
+
+.botton button {
+    width: 20vw;
+    height: 3vw;
+    background-color: #f62153;
+    font-weight: bold;
+    color: white;
+}
+
+.botton button:hover {
+    background: rgb(171, 22, 22);
+}
+
+body {
+    background-image: "/Images/Loginbg.jpg";
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.contentsinlogin {
+    margin-top: 6em;
+}
+
+.newbox {
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box h3 {
+    margin-top: 1.2em;
+    color: white;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1d2124;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #cc2e2e;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #e61111;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #ee1616;
+}
+
+.footer {
+    margin-top: 40em;
+}
+
+.signup {
+    position: sticky;
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 29vw;
+    margin-left: 47vw;
+    padding: 14px 32.5px;
+    text-align: center;
+    border: 2px solid #e61111;
+    z-index: 1;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #e61111;
+}
+
+#sign {
+    height: 50%;
+    width: 35%;
+    top: -100%;
+    left: 47.5%;
+    position: fixed;
+    transition: 1s;
+    transform: translate(-30%, -30%);
+    visibility: visible;
+}
+
+#sign.active {
+    top: 45%;
+    visibility: visible;
+}
+
+
+.newbox h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.newbox input[type="text"],
+.newbox input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1d2124;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.newbox input[type="text"]:focus,
+.newbox input[type="password"]:focus {
+    width: 280px;
+    border-color: #cc2e2e;
+}
+
+.newbox input[type="submit"]:hover {
+    background: #ee1616;
+}
+
+.newbox input[type="email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1d2124;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.newbox input[type="email"]:focus {
+    width: 280px;
+    border-color: #cc2e2e;
+}
